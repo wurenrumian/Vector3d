@@ -9,6 +9,7 @@ int main()
     p.print();
     p.moveByVector(v);
     p.print();
-
+    p.moveByVector(-v);
+    p.print();
     return 0;
 }

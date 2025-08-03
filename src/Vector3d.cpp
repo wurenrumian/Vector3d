@@ -13,3 +13,8 @@ void Vector3d::print() const
 {
     std::cout << "Vector(" << m_x << " , " << m_y << " , " << m_z << ")\n";
 }
+
+Vector3d Vector3d::operator-()
+{
+    return Vector3d(-m_x, -m_y, -m_z);
+}
