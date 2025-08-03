@@ -17,6 +17,7 @@ public:
 
     void print() const;
     void moveByVector(const Vector3d& v); // forward declaration above needed for this line
+    Point3d operator-();
 };
 
 #endif

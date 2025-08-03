@@ -22,3 +22,8 @@ void Point3d::print() const
 {
     std::cout << "Point(" << m_x << ", " << m_y << ", " << m_z << ")\n";
 }
+
+Point3d Point3d::operator-()
+{
+    return Point3d(-m_x, -m_y, -m_z);
+}
